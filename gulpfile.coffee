@@ -76,7 +76,7 @@ gulp.task 'compile:stylus', ['clean:dist'], ->
 			See README.md for requirements and use.
 		*/
 		"""
-		.pipe rename 'sc-date-time.css'
+		.pipe rename 'sc-date-time.scss'
 		.pipe gulp.dest 'dist'
 
 gulp.task 'compile:main', ['compile:javascript','compile:stylus']
