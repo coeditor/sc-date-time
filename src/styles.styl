@@ -40,34 +40,6 @@ clock-radius = 75
 	width: 46.1rem
 	font-size: 1.2rem
 
-	&[theme=bootstrap]
-		.btn
-			outline: 0
-			line-height: 2.4rem
-			text-transform: uppercase
-			padding-top: 0
-			padding-bottom: 0
-			font-weight: inherit
-			font-size: inherit
-		& > .control > .slider > .date-control > .days > .day-cell
-			line-height: 2.3rem
-			border-radius: 3px
-			text-decoration: none
-			&:hover
-				text-decoration: none
-			&.today
-				position: relative
-				&::after
-					content: " "
-					position: absolute
-					bottom: 0.2rem
-					right: 0.2rem
-					width: 0
-					height: 0
-					border-style: solid
-					border-width: 0 0 0.5rem 0.5rem
-					border-color: transparent transparent currentColor transparent
-
 	&[theme=material], &:not([theme])
 		.md-button
 			padding: 6px
@@ -132,7 +104,7 @@ clock-radius = 75
 				width: 10%
 				cursor: pointer
 				padding: 0 0.6rem
-				& > i.fa
+				& > md-icon
 					&:first-child
 						margin-right 1.4rem
 					&:last-child

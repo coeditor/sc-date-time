@@ -2,8 +2,8 @@
 	@license sc-date-time
 	@author SimeonC
 	@license 2015 MIT
-	@version 1.1.6-yg.2
-
+	@version 1.1.6-yg.3
+	
 	See README.md for requirements and use.
 *//* Start Variable Declaration */
 /* End Variable Declaration */
@@ -16,37 +16,6 @@
   border: none;
   width: 46.1rem;
   font-size: 1.2rem;
-}
-.time-date[theme=bootstrap] .btn {
-  outline: 0;
-  line-height: 2.4rem;
-  text-transform: uppercase;
-  padding-top: 0;
-  padding-bottom: 0;
-  font-weight: inherit;
-  font-size: inherit;
-}
-.time-date[theme=bootstrap] > .control > .slider > .date-control > .days > .day-cell {
-  line-height: 2.3rem;
-  border-radius: 3px;
-  text-decoration: none;
-}
-.time-date[theme=bootstrap] > .control > .slider > .date-control > .days > .day-cell:hover {
-  text-decoration: none;
-}
-.time-date[theme=bootstrap] > .control > .slider > .date-control > .days > .day-cell.today {
-  position: relative;
-}
-.time-date[theme=bootstrap] > .control > .slider > .date-control > .days > .day-cell.today::after {
-  content: " ";
-  position: absolute;
-  bottom: 0.2rem;
-  right: 0.2rem;
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 0 0 0.5rem 0.5rem;
-  border-color: transparent transparent currentColor transparent;
 }
 .time-date[theme=material] .md-button,
 .time-date:not([theme]) .md-button {
@@ -133,10 +102,10 @@
   cursor: pointer;
   padding: 0 0.6rem;
 }
-.time-date > .control > .slider > .switch-control > i.fa:first-child {
+.time-date > .control > .slider > .switch-control > md-icon:first-child {
   margin-right: 1.4rem;
 }
-.time-date > .control > .slider > .switch-control > i.fa:last-child {
+.time-date > .control > .slider > .switch-control > md-icon:last-child {
   margin-left: 1.4rem;
 }
 .time-date > .control > .slider > .date-control > .title {
